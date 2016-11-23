@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Latest compiled and minified CSS -->
+</head>
+
+<body>
+
+    <script src="/script.js"></script>
+    <script type="text/javascript">
+    
+fetch("https://doopa.ru", function(data) {
+// fetch("https://jsonplaceholder.typicode.com/users", function(data) {
+console.log("Sukces");
+console.log(data);
+}, function(err) {
+console.log("Wystąpił błąd!");
+console.log(err);
+});
+    </script>
+</body>
+
+</html>
